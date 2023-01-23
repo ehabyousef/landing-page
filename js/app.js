@@ -17,7 +17,7 @@ function createnavlist() {
 
     listcontent = document.createElement("li");
 
-    listcontent.innerHTML = `<a class='menu__link' data-nav="${section.id}" href='#${secId}'>${section.dataset.nav}</a>`;
+    listcontent.innerHTML = `<a class='menu__link' data-nav="${section.id}" href='#${secId}'>${secName}</a>`;
     //add item to navbar list
 
     navigationBar.appendChild(listcontent);
