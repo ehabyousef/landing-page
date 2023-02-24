@@ -89,7 +89,7 @@ section {
   padding: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #ff0000;
+  color: #000;
 }
 
 .navbar__menu .menu__link:hover {
